@@ -49,7 +49,7 @@ header{
   }
 
 .work_with_us{
-  padding-top: 145px;
+  padding-top: 135px;
   text-align: center;
   }
 
@@ -59,6 +59,7 @@ header{
   font-size: 42px;
   color: #FFF;
   margin-bottom: 82px;
+  line-height: 49px;
   }
 
 .work_with_us a{
@@ -67,7 +68,7 @@ header{
   color: #FFF;
   text-decoration: none;
   background: #eb7d4b;
-  padding: 28px 81px;
+  padding: 20px 70px;
   border-radius: 4px;
   box-shadow: 0 0 4px rgb(0,0,1)
   }
@@ -81,14 +82,14 @@ header{
   background: #17c2a4;
   }
 
-.service_we_provide p{
-  padding: 119px 0px 21px 0px;
+.service_we_provide h1{
   margin: 0px;
+  padding: 50px 0px 20px 0px;
   text-align: center;
   font-family: 'Titillium_Web_Bold';
   color: #FFF;
   font-size: 40px;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   }
 
 .line{
@@ -96,13 +97,42 @@ header{
   margin: 0 auto;
   }
 
-.service_we_provide_text p{
-  font-family: 'Titillium_Web_Regular';
-  letter-spacing: 0px;
+.service_we_provide_text h2{
+  font-family: 'TitilliumWeb-Light';
   font-size: 18px;
-  padding: 23px 0px 40px 0px;
   color: #FFF;
   line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 0px 80px 0px;
+  }
+
+.column{
+  text-align: center;
+  margin: 0 25px;
+  }
+
+.img_block{
+  height: 159px;
+  text-align: center;
+  }
+
+.column h1{
+  font-family: 'Titillium_Web_Bold';
+  color: #FFF;
+  font-size: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  }
+
+.column h2{
+  font-family: 'TitilliumWeb-Light';
+  color: #FFF;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
   }
 
 #services{
@@ -111,6 +141,12 @@ header{
   justify-content: center;
   }
 
-#services img{
-  margin: 0px;
+#services .column:nth-of-type(1) {
+  }
+#services .column:nth-of-type(2) {
+  }
+#services .column:nth-of-type(3) {
+  }
+#services .column:nth-of-type(4) {
+  margin-right: 0;
   }
