@@ -1,0 +1,21 @@
+@font-face {
+    font-family:'Titillium_Web_Regular';
+    src: url('fonts/TitilliumWeb-Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 300;
+    }
+
+@font-face {
+    font-family:'Titillium_Web_SemiBold';
+    src: url('fonts/TitilliumWeb-SemiBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+    }
+
+@font-face {
+    font-family:'Titillium_Web_Bold';
+    src: url('fonts/TitilliumWeb-Bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: 500;
+    }
+TitilliumWeb-Bold.otf

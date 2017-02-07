@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto;
+  }
+
+header{
+  background-color: #87509c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.logo{
+  margin: 58px 0px 0px 0px;
+  }
+
+.nav_menu{
+  margin: 72px 0px 0px 0px;
+  float: right;
+  height: 13px;
+  }
+
+.nav_menu a{
+  font-family: 'Titillium_Web_Regular';
+  font-size: 16px;
+  color: #FFF;
+  line-height: 18px;
+  text-decoration: none;
+  padding: 5px 17px 6px 17px;
+  text-transform: uppercase;
+  transition: 0.25s;
+  }
+
+.nav_menu a:hover{
+  background: #643a79;
+  border-radius: 3px;
+  }
+
+.content{
+  background-color: #87509c;
+  padding-bottom: 145px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.wrap{
+  width: 1040px;
+  margin: 0 auto;
+  }
+
+.work_with_us{
+  padding-top: 145px;
+  text-align: center;
+  }
+
+.work_with_us p{
+  margin: 0px;
+  font-family: 'Titillium_Web_Bold';
+  font-size: 42px;
+  color: #FFF;
+  margin-bottom: 82px;
+  }
+
+.work_with_us a{
+  font-family: 'Titillium_Web_SemiBold';
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none;
+  background: #eb7d4b;
+  padding: 28px 81px;
+  border-radius: 4px;
+  }
