@@ -27,20 +27,20 @@ header{
   text-decoration: none;
   padding: 5px 17px 6px 17px;
   text-transform: uppercase;
-  transition: 0.25s;
+  border-radius: 3px;
   }
 
 .nav_menu a:hover{
   background: #643a79;
-  border-radius: 3px;
+  transition: 0.25s;
   }
 
 .content{
-  background-color: #87509c;
   padding-bottom: 145px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #87509c;
   }
 
 .wrap{
@@ -69,4 +69,48 @@ header{
   background: #eb7d4b;
   padding: 28px 81px;
   border-radius: 4px;
+  box-shadow: 0 0 4px rgb(0,0,1)
+  }
+
+.work_with_us a:hover{
+  background: #ff5000;
+  transition: 0.25s;
+  }
+
+.service_we_provide{
+  background: #17c2a4;
+  }
+
+.service_we_provide p{
+  padding: 119px 0px 21px 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Titillium_Web_Bold';
+  color: #FFF;
+  font-size: 40px;
+  letter-spacing: 10px;
+  }
+
+.line{
+  display: block;
+  margin: 0 auto;
+  }
+
+.service_we_provide_text p{
+  font-family: 'Titillium_Web_Regular';
+  letter-spacing: 0px;
+  font-size: 18px;
+  padding: 23px 0px 40px 0px;
+  color: #FFF;
+  line-height: 26px;
+  }
+
+#services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+#services img{
+  margin: 0px;
   }
