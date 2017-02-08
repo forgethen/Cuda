@@ -80,6 +80,7 @@ header{
 
 .service_we_provide{
   background: #17c2a4;
+  padding-bottom: 128px;
   }
 
 .service_we_provide h1{
@@ -107,17 +108,17 @@ header{
   margin: 20px 0px 80px 0px;
   }
 
-.column{
+.services_column{
   text-align: center;
   margin: 0 25px;
   }
 
-.img_block{
+.services_img_block{
   height: 159px;
   text-align: center;
   }
 
-.column h1{
+.services_column h1{
   font-family: 'Titillium_Web_Bold';
   color: #FFF;
   font-size: 24px;
@@ -125,7 +126,7 @@ header{
   text-transform: uppercase;
   }
 
-.column h2{
+.services_column h2{
   font-family: 'TitilliumWeb-Light';
   color: #FFF;
   font-size: 16px;
@@ -141,12 +142,103 @@ header{
   justify-content: center;
   }
 
-#services .column:nth-of-type(1) {
+#services .services_column:nth-of-type(1) {}
+#services .services_column:nth-of-type(2) {}
+#services .services_column:nth-of-type(3) {}
+#services .services_column:nth-of-type(4)
+  {margin-right: 0;}
+
+.meet_our_btfl_team{
+  background: #e7f1f8;
   }
-#services .column:nth-of-type(2) {
+
+.meet_our_btfl_teamimg_block{
+  text-align: center;
   }
-#services .column:nth-of-type(3) {
+
+.meet_our_btfl_teamcolumn{
+  margin: 0 auto;
   }
-#services .column:nth-of-type(4) {
-  margin-right: 0;
+
+.meet_our_btfl_team h1{
+  font-size: 41px;
+  font-family: 'Titillium_Web_Bold';
+  color: #3c4761;
+  margin: 0px;
+  padding: 119px 0px 15px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 31px;
+  }
+
+.meet_our_btfl_team h2{
+  font-size: 16px;
+  font-family: 'Titillium_Web_Regular';
+  color: rgba(60, 71, 97, 0.75);
+  margin: 0px;
+  text-align: center;
+  padding: 25px 0px 78px 0px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  }
+
+.meet_our_btfl_team h3{
+  font-size: 16px;
+  font-family: 'TitilliumWeb-Light';
+  color: rgba(60, 71, 97, 0.75);
+  margin: 26px 0px 31px 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 24px;
+  }
+
+.sprite{
+  text-align: center;
+  margin: 0 auto;
+  }
+
+.sprite a{
+  text-align: center;
+  margin: 0 6px;
+  }
+
+#meet_our_btfl_teamservices{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+#meet_our_btfl_teamservices .meet_our_btfl_teamcolumn:nth-of-type(1) {}
+#meet_our_btfl_teamservices .meet_our_btfl_teamcolumn:nth-of-type(2) {}
+#meet_our_btfl_teamservices .meet_our_btfl_teamcolumn:nth-of-type(3) {}
+#meet_our_btfl_teamservices .meet_our_btfl_teamcolumn:nth-of-type(4)
+  {margin-right: 0;}
+
+.meet_our_btfl_teamcolumn h1{
+  font-size: 24px;
+  font-family: 'Titillium_Web_Bold';
+  color: #3c4761;
+  margin: 41px 0px 15px 0px;
+  text-align: center;
+  padding: 0px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  }
+
+.meet_our_btfl_teamcolumn h2{
+  font-size: 16px;
+  font-family: 'Titillium_Web_Regular';
+  color: #30bae7;
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  }
+
+.service_we_provide, .meet_our_btfl_team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   }
